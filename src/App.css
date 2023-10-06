@@ -1,0 +1,29 @@
+
+
+body{
+  background-color: rgb(222, 247, 226);
+}
+
+.App{
+  padding-left: 25%;
+}
+
+span{
+  font-family: cursive;
+  font-size: 17px;
+  font-weight: 700;
+  color: rgb(172, 45, 45);
+}
+
+.container{
+  display: flex;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 10px;
+  justify-content: space-around;
+}
+
+img{
+  margin-bottom: 45px !important;
+  border: 2px solid #f64c4c;
+  border-radius: 25px !important;
+}
